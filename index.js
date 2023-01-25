@@ -10,7 +10,7 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 
-const writeMd = (title,badge1,badge2,badge,description,install,usage,credits,licenses,test)=>{
+const writeMd = (title,badge1,badge2,badge,description,install,usage,credits,licenses,test,userName,gitHub)=>{
     return`
    
  # ${title}
@@ -41,8 +41,14 @@ ${credits}
 ## Licenses
 ${licenses}
 
- ## Tests
- ${test}
+## Tests
+${test}
+
+## Questions
+ ${userName}
+ ${gitHub}
+
+
 
     `
 }
@@ -128,7 +134,9 @@ inquirer.prompt([
         ans.credits,
         ans.usage,
         ans.licenses,
-        ans.test),
+        ans.test,
+        ans.userName,
+        ans.gitHub),
         (err)=> {
             if (err) {
                 console.log("Something went wrong");

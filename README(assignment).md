@@ -3,10 +3,10 @@
  # Taco Tuesday
 
 ## Badge
-![12 badge](https://img.shields.io/badge/12-qwe-undefined.svg)
+![Love badge](https://img.shields.io/badge/Love-Tacos-undefined.svg)
 
 ## Description
-recipe book of tacos and salsas
+This project contains taco and salsa recipes!
 
  ## Table of Content
  
@@ -17,18 +17,24 @@ recipe book of tacos and salsas
 - [Tests](#test)
 
 ## Instalation
-download me
+Install NodeJS 
 
 ## Usage
-me myself and I
+Me Myself and I
 
 ## Credits
-for taco lovers
+Use in bash with NodeJS. Use node index.js to initiate prompts
 
 ## Licenses
-Apache License 2.0
+MIT License
 
- ## Tests
- n/a
+## Tests
+N/A
+
+## Questions
+ Taco Tom
+ Tacoman22
+
+
 
     
